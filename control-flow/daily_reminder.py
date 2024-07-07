@@ -8,9 +8,6 @@ match Priority:
         print("just work according this week")
     case "low":
         print("you still have time")
-
-
-
 if time_bound.lower()== "yes":
-    print("finish your work befor you sleep today")
+    print("reminder :math is of priority task ,that requires immediate attention today!")
 else:print("no need to rush")

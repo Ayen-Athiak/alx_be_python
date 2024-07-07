@@ -9,5 +9,5 @@ match Priority:
     case "low":
         print("you still have time")
 if time_bound== "yes":
-    print( "reminder : Finish  math project ' is a high priority task that requires immediate attention today!")
-else:print("no need to rush")
+    reminder = "Finish math project' is a high priority task that requires immediate attention today!"
+    print( "reminder:",reminder)

@@ -1,6 +1,7 @@
 def perform_operation(num1,num2,operation):
     #arithmetic_operations.py
 
+
     num1 =float(input("Enter the first number: "))
     num2 = float(input("Enter the second number:"))
     operation = input("Enter the operation (add, subtract, multiply, divide): ").strip().lower()
@@ -11,8 +12,12 @@ def perform_operation(num1,num2,operation):
     elif operation == "multiply":
         return num1 * num2
     elif operation == "divide":
-         if num2 == 0:
+        return num1 / num2
+    if num2 == 0:
             print("this number cannot be divide")
-    else:return num2 / num2
+    else:return num1 / num2
+result= perform_operation("num1","num2","operation")
+print(f"results:{result}")
+
 
 

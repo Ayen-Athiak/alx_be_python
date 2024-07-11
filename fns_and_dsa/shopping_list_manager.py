@@ -6,7 +6,7 @@ def display_menu():
     print("3. View List")
     print("4. Exit")
 def add_item():
-    item =str(input("Enter the item to add:"))
+    item =int(input("Enter the item to add:"))
     shopping_list.append(item)
     print(item)
 

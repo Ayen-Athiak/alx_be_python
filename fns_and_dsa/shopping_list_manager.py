@@ -11,7 +11,7 @@ def add_item():
     print(item)
 
 def remove_item():
-    item= input("enter the item you want to remove")
+    item= input("Enter the item to remove:")
     if  item in shopping_list:
         shopping_list.remove(item)
         print("the item has been remove")

@@ -13,7 +13,6 @@ def perform_operation(num1,num2,operation):
     elif operation == "divide":
          if num2 == 0:
             print("this number cannot be divide")
-    else:
-        return num2 / num2
+    else:return num2 / num2
 
 

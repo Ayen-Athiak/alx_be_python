@@ -18,5 +18,5 @@ def main():
         convertion = convert_to_fahrenheit(temperature)
         print(f"temperature:{temperature}°C")
     else:
-        print("invalid syt,please enter correct :")
+        print("Invalid temperature. Please enter a numeric value.")
 main()
